@@ -1,6 +1,16 @@
+.backgroundPart {
+  position: fixed;
+  height: 50vh;
+  width: 100vw;
+  background-color: hsl(195deg, 20%, 86%);
+  bottom: 0;
+  left: 0;
+}
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .maxWidthWrapper {
@@ -9,6 +19,7 @@
 .header {
   padding-bottom: 64px;
   width: 65vw;
+  position: relative;
 }
 
 .title {
@@ -34,4 +45,5 @@
 
 .controlColumn {
   width: 50vw;
+  position: relative;
 }
